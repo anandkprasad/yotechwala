@@ -86,6 +86,6 @@ app.post('/contact', function(req, res){
     })
 })
 
-app.listen(process.env.PORT,function(){
+app.listen(process.env.port,function(){
     console.log("YoTechWala server started on port")
 })
